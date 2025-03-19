@@ -29,8 +29,8 @@ export default function RootLayout({ children }) {
             <Header></Header>
             <main className="min-h-screen">{children}</main>
             {/* fotter */}
-            <fotter className="bg-muted/50 py-12">
-              <div className="container px-4 text-center text-gray-200 mx-auto">
+            <fotter className="bg-muted/50 ">
+              <div className="container py-8 px-4 text-center text-gray-200 mx-auto">
                 <p>Made with 💟 by NITESH-DK</p>
               </div>
             </fotter>
