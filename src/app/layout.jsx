@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
             <Toaster richColors></Toaster>
             {/* fotter */}
             <fotter className="bg-muted/50 ">
-              <div className="container py-8 px-4 text-center text-gray-200 mx-auto">
+              <div className="container  px-4 text-center text-gray-200 mx-auto">
                 <p>Made with 💟 by NITESH-DK</p>
               </div>
             </fotter>

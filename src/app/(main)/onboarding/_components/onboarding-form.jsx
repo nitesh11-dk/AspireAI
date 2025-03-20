@@ -72,6 +72,7 @@ const OnboardingForm = ({ industries }) => {
   }, [updateResult, updateLoading]);
 
   const watchIndustry = watch("industry");
+
   return (
     <div>
       <Card className="w-full max-w-lg mt-10 mx-2">
