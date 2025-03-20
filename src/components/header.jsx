@@ -1,4 +1,10 @@
-import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
+import {
+  SignedIn,
+  SignedOut,
+  SignInButton,
+  SignUpButton,
+  UserButton,
+} from "@clerk/nextjs";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -87,6 +93,9 @@ const header = async () => {
             <SignInButton>
               <Button variant={"outline"}>Sign In</Button>
             </SignInButton>
+            <SignUpButton>
+              <Button variant={"outline"}>Sign Up</Button>
+            </SignUpButton>
           </SignedOut>
           <SignedIn>
             <UserButton
