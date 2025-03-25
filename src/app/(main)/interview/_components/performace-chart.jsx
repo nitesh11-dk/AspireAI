@@ -23,12 +23,20 @@ export default function PerformanceChart({ assessments }) {
   const [chartData, setChartData] = useState([]);
 
   useEffect(() => {
-    if (assessments) {
-      const formattedData = assessments.map((assessment) => ({
-        date: format(new Date(assessment.createdAt), "MMM dd"),
-        score: assessment.quizScore,
-      }));
+    console.log("Raw assessments received:", assessments); // Log raw data
+    if (assessments && assessments.length > 0) {  // Check if array is not empty
+      const formattedData = assessments.map((assessment) => {
+        const dataPoint = {
+          date: format(new Date(assessment.createdAt), "MMM dd"),
+          score: assessment.quizScore,
+        };
+        console.log("Created data point:", dataPoint); // Log each data point
+        return dataPoint;
+      });
+      console.log("Final formatted data:", formattedData); // Log final data
       setChartData(formattedData);
+    } else {
+      console.log("No assessments data or empty array received");
     }
   }, [assessments]);
 
