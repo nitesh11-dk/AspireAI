@@ -407,8 +407,8 @@ export default function ResumeBuilder({ initialContent }) {
               <MDEditor.Markdown
                 source={previewContent}
                 style={{
-                  background: "white",
-                  color: "black",
+                  background: "#ffffff",  // Explicitly set white background
+                  color: "#000000",       // Explicitly set black text
                 }}
               />
             </div>

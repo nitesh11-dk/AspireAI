@@ -2888,14 +2888,14 @@ html2canvas@^1.0.0, html2canvas@^1.0.0-rc.5, html2canvas@^1.4.1:
     css-line-break "^2.1.0"
     text-segmentation "^1.0.3"
 
-html2pdf.js@^0.10.3:
-  version "0.10.3"
-  resolved "https://registry.npmjs.org/html2pdf.js/-/html2pdf.js-0.10.3.tgz"
-  integrity sha512-RcB1sh8rs5NT3jgbN5zvvTmkmZrsUrxpZ/RI8TMbvuReNZAdJZG5TMfA2TBP6ZXxpXlWf9NB/ciLXVb6W2LbRQ==
+html2pdf.js@^0.10.1:
+  version "0.10.1"
+  resolved "https://registry.npmjs.org/html2pdf.js/-/html2pdf.js-0.10.1.tgz"
+  integrity sha512-3onwwhOWsZfNjIZwV6YIJ6FVhXk+X9YxHSqzeS6hup+1dGi2DHI+zZYUJ+iFnvtaYcjlhyrILL1fvRCUOa8Fcg==
   dependencies:
     es6-promise "^4.2.5"
     html2canvas "^1.0.0"
-    jspdf "^3.0.0"
+    jspdf "^2.3.1"
 
 htmlparser2@^8.0.2:
   version "8.0.2"
@@ -3275,6 +3275,21 @@ json5@^1.0.2:
   dependencies:
     minimist "^1.2.0"
 
+jspdf@^2.3.1:
+  version "2.5.2"
+  resolved "https://registry.npmjs.org/jspdf/-/jspdf-2.5.2.tgz"
+  integrity sha512-myeX9c+p7znDWPk0eTrujCzNjT+CXdXyk7YmJq5nD5V7uLLKmSXnlQ/Jn/kuo3X09Op70Apm0rQSnFWyGK8uEQ==
+  dependencies:
+    "@babel/runtime" "^7.23.2"
+    atob "^2.1.2"
+    btoa "^1.2.1"
+    fflate "^0.8.1"
+  optionalDependencies:
+    canvg "^3.0.6"
+    core-js "^3.6.0"
+    dompurify "^2.5.4"
+    html2canvas "^1.0.0-rc.5"
+
 jspdf@^2.5.1:
   version "2.5.2"
   resolved "https://registry.npmjs.org/jspdf/-/jspdf-2.5.2.tgz"
@@ -3290,7 +3305,7 @@ jspdf@^2.5.1:
     dompurify "^2.5.4"
     html2canvas "^1.0.0-rc.5"
 
-jspdf@^3.0.0, jspdf@^3.0.1:
+jspdf@^3.0.1:
   version "3.0.1"
   resolved "https://registry.npmjs.org/jspdf/-/jspdf-3.0.1.tgz"
   integrity sha512-qaGIxqxetdoNnFQQXxTKUD9/Z7AloLaw94fFsOiJMxbfYdBbrBuhWmbzI8TVjrw7s3jBY1PFHofBKMV/wZPapg==
