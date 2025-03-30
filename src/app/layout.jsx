@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "AspireAI - AI Career  Coach",
+  title: "AspireAI - Job Success Coach",
   description: "",
 };
 
@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
           >
             {/*   header */}
             <Header></Header>
-            <main className="min-h-screen">{children}</main>
+            <main className="min-h-screen overflow-x-hidden">{children}</main>
             <Toaster richColors></Toaster>
             {/* fotter */}
             <fotter className="bg-muted/50 ">

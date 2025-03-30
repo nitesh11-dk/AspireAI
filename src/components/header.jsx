@@ -31,12 +31,12 @@ const header = async () => {
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href={"/"}>
           <Image
-            src={"/logo.gif"}
+            src={"/logo.jpg"}
             width={200}
             height={200}
             alt="
         Aspire logo"
-            className="h-12 py-1 w-auto object-contain"
+            className="h-12 rounded-4xl py-1 w-auto object-contain"
           />
         </Link>
 
@@ -45,7 +45,7 @@ const header = async () => {
             <Link href={"/dashboard"}>
               <Button variant={"outline"}>
                 <LayoutDashboard className="h-4 w-4 " />
-                <span className="hidden md:block"> Insdustry Insights</span>
+                <span className="hidden md:block"> Sector Insights</span>
               </Button>
             </Link>
 
